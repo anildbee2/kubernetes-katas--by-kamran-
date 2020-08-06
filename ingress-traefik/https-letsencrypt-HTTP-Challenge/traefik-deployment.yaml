@@ -17,7 +17,7 @@ metadata:
   labels:
     name: pvc-traefik-acme-json
 spec:
-  storageClassName: "default"
+  storageClassName: "standerd"
   accessModes:
     - ReadWriteOnce
   resources:
